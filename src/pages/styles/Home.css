@@ -1,0 +1,42 @@
+.mySwiper {
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper .swiper-slide {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-text {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-text h4 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.slide-text p {
+    color: #fff;
+    font-size: 24px;
+}
