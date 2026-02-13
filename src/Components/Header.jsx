@@ -10,6 +10,7 @@ const Header = () => {
                 <nav>
                     <NavLink to='/'>홈</NavLink>
                     <NavLink to='/about'>소개</NavLink>
+                    <NavLink to='/todo'>todo</NavLink>
                     <NavLink to='/company'>회사</NavLink>
                     <NavLink to='/board'>게시판</NavLink>
                 </nav>

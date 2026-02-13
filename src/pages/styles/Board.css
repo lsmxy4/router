@@ -1,0 +1,39 @@
+.board {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.board-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.board-card {
+  display: block;
+  background: #6f63d2;
+  color: #fff;
+  padding: 30px 20px;
+  text-decoration: none;    
+  transition: transform 0.2s;
+}
+
+.board-card:hover {
+  transform: translateY(-6px);
+}
+
+.card-number {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 12px;
+  opacity: 0.8;
+}
+
